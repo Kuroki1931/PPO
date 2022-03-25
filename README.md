@@ -1,7 +1,7 @@
 # PPO
 
 # 流れ
-_ trajectory listの取得 _  
+ _trajectory listの取得_  
 input-state-箱の位置、箱の速度、ポールの角度、角速度  
 →  
 (4, 256)-relu-(256, 2)-softmax-Categorical  
