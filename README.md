@@ -11,5 +11,8 @@ actionを得る
 env.step(action)で次のstepへ。  
 T_horizon回学習を進めて、trajectory listを得る。  
 
+**最適化**
+更新前と更新後のstateからdeltaを計算する。
+
 # 参考
 https://github.com/seungeunrho/minimalRL
