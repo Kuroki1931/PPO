@@ -7,8 +7,8 @@ input-state-箱の位置、箱の速度、ポールの角度、角速度
 →  
 actionを得る  
 →  
-env.step(action)で次のstepへ。　　
-T_horizon回学習を進めて、trajectory listを得る。
+env.step(action)で次のstepへ。  
+T_horizon回学習を進めて、trajectory listを得る。  
 
 # 参考
 https://github.com/seungeunrho/minimalRL
